@@ -1,0 +1,45 @@
+.home4{
+    margin-top: 150px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    gap:40px;
+}
+.someproj{
+    /* position: relative; */
+    width:85%;
+    margin-left:7.5%;
+} 
+.swiper{
+    /* position:  relative !important; */
+    padding-top:70px !important;
+    width:100%;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    color:#fff !important ;
+    position:absolute !important ;
+    top:30px !important ;
+    background-color: #1e1e1e;
+    width:40px !important;
+    height: 40px !important;
+    border-radius: 8px;
+    right :0px !important;
+    left:auto !important;
+}
+/* Custom styles for Swiper navigation icons */
+.swiper-button-prev{
+    right :50px !important;
+    left:auto !important;
+}
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 14px !important; /* Change the icon size as needed */
+  font-weight: 800;
+}
+@media only screen and (max-width:568px){
+    .home4{
+        margin-top: 100px;
+    }
+}

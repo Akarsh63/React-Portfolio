@@ -1,0 +1,44 @@
+.projectscontainer{
+    margin-top: 100px;
+    margin-bottom:60px;
+    width:80%;
+    margin-left:10%;
+}
+.allprojects{
+
+    margin-top: 50px;
+}
+.allprojects{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap:50px
+}
+.projectssearchbar{
+    width:300px;
+    position: relative;
+    margin-top: 50px;
+}
+.searchbar{
+    background-color: #fff;
+    width: 100%;
+    font-size: 20px;
+    padding:10px ;
+    color: #1e1e1e;
+    outline: none;
+    border-radius: 6px;
+    border: transparent;
+}
+.searchbaricon{
+    background-color: #fff;
+    color: #bcb4b4;
+    position: absolute;
+    top:12px;
+    right: 10px;
+    width: 20px;
+}
+@media only screen and (max-width:768px) {
+    .projectssearchbar{
+        width: 100%;
+    }
+    
+}

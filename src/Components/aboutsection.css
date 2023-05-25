@@ -1,0 +1,115 @@
+.container{
+    margin-top: 170px;
+    color:#bcb4b4;
+    margin-bottom: 60px;
+}
+.top-section{
+    display: flex;
+    flex-direction: row;
+}
+.nameabout{
+    background-color: #1e1e1e;
+    padding:3px 4px;
+    border-radius: 6px;
+}
+.left-section{
+    width: 60%;
+    padding:30px 0px 0px 10%;
+    /* float: right; */
+}
+.right-section{
+    
+    background-color: transparent;
+    width: 40%;
+    align-items: center;
+    /* align-items: center; */
+}
+.profilepic3{
+    width:72%;
+    margin-left:4.5%;
+    border: 2px solid #bcb4b4;
+}
+.about__info{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.subheadingabout{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.headingabout{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.download_resume{
+        border-radius: 7px;
+        background-color: #bcb4b4;
+        font-size: 20px;
+        font-weight: 400;
+        padding:15px 27px;
+        text-decoration: none;
+        color:#000;  
+        transition: .5s background-color;
+}
+.download_resume:hover{
+    background-color: #fff;
+}
+.down-section{
+    width: 80%;
+    margin-left:10%;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap:100px
+}
+.aboutinfoitems{
+    display: flex;
+    flex-direction: column;
+    gap:22px
+}
+.aboutiteminfo{
+    font-size: 37px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:768px) {
+    .aboutiteminfo{
+        font-size: 30px;
+    }
+    .aboutinfoitems{
+        gap:20px;
+    }
+    .top-section{
+        flex-direction:column;
+        gap:60px;
+    }
+    .container{
+        margin-top: 70px;
+        
+    }
+    .left-section{
+        width: 100%;
+        padding:30px 30px 0px ;
+        /* float: right; */
+    }
+
+    .right-section{
+        width:100%;
+    }
+    .profilepic3{
+        width:90%;
+        margin-left:5.5%;
+    }
+    @media only screen and (max-width:586px){
+        .about__info{
+            font-size: 15px;
+        }
+        .down-section{
+            margin-top: 100px;
+            width: 90%;
+            margin-left:5%;
+            gap:70px
+        }
+    }
+}

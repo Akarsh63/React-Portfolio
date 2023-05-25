@@ -1,0 +1,153 @@
+.home2ndelement{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:80%;
+    margin-top: 200px;
+    margin-left:10%;
+    align-items: center;
+}
+.buttons2 ul{
+    display: flex;
+    flex-direction: row;
+    gap:19px;
+    
+}
+.buttons2 li{
+   list-style: none;
+}
+.workssec{
+    
+    background-color: #bcb4b4;
+    border-radius: 7px;
+    border: 2px solid #bcb4b4;
+    font-size: 20px;
+    font-weight: 350;
+    padding:10px 40px;
+    text-decoration: none;
+    color: #000;  
+    
+    /* left:45%; */
+    transition: 0.5s background-color,0.5s border;
+}
+.readssec{
+    border-radius: 7px;
+    border: 2px solid #bcb4b4;
+    font-size: 20px;
+    font-weight: 400;
+    padding:10px 22px;
+    text-decoration: none;
+    color: #bcb4b4;  
+}
+.readssec:hover{
+    border: 2px solid #fff;
+    color:#fff;
+ }
+.workssec:hover{
+   background-color: #ffffff;
+   border:2px solid #ffffff;
+}
+.intro2{
+    font-size: 20px;
+    color: #bcb4b4;
+}
+.ABOUTME{
+
+    font-size: 60px;
+    font-weight: 500;
+    color: #bcb4b4;
+}
+.decab{
+    font-size: 20px;
+    color: #bcb4b4;
+    margin-top: 10px;
+}
+.felx{
+    
+    /* display: flex;
+    flex-direction: column; */
+    width: 40%;
+}
+.buttons2{
+    margin-top:40px;
+}
+.imgdiv2{
+    display: flex;
+    width: 50%;
+}
+.profile2_home{
+    width: 100%;
+}
+@media only screen and (max-width: 576px){
+    .home2ndelement{
+        flex-direction: column;
+        margin-top: 130px;
+    }
+    .felx{
+        width: 100%;
+    }
+    .imgdiv2{
+        margin-top: 30px;
+      width: 100%;
+    }
+    .intro2{
+        font-size: 13px;
+    }
+    .ABOUTME{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .abouthometextdiv{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .abouthometext{
+        text-align: center;
+    }
+    .decab{
+        font-size: 15px;
+        color: #bcb4b4;
+        margin-top: 12px;
+    }
+    .buttons2{
+        width: 100%;
+        /* background-color: aqua; */
+    }
+    .buttons2 ul{
+        flex-direction:column;
+        gap:15px;
+    }
+    .buttons2 ul li a{
+        display: block;
+    }
+        
+    .workssec,.readssec {
+    width: 100%;
+    text-align: center;
+    }
+
+}
+@media only screen and (min-width: 576px) and (max-width:992px){
+    .intro2{
+        font-size: 18px;
+    }
+    .ABOUTME{
+        font-size:35px;
+    }
+    .buttons2 ul{
+        flex-direction:column;
+        gap:15px;
+    }
+    .buttons2 ul li a{
+        display: block;
+    }
+        
+    .workssec,.readssec {
+    width: 100%;
+    text-align: center;
+    }
+    .decab{
+        font-size: 16px;
+    }
+}

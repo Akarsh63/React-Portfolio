@@ -1,0 +1,40 @@
+.card{
+    
+    color: #bcb4b4;
+    width:75%;
+    margin: auto;
+    /* border: 1px solid #fff; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.card-icon{
+    text-align: center;
+    font-size: 28px;
+}
+.card-name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.card-text{
+    margin-top :20px;
+    width:80%;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+@media only screen and (max-width: 568px){
+    .card{
+        width:100%;
+    }
+    .card-icon{
+        font-size: 28px;
+    }
+    .card-name{
+        font-size: 25px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+}

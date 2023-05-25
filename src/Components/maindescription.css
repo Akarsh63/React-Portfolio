@@ -1,0 +1,219 @@
+
+.home_description{
+    max-width: 1200px;
+    width: 90%;
+    margin:auto;
+    margin-top:130px;
+    position: relative;
+    /* background-color: #262626; */
+
+}
+.profile1_home{
+    border:1.5px solid #ffffff;
+    margin-top:70px;
+    width:70%;
+    margin-left: 12.5%;
+}
+.home_description_name_greet{
+    position: absolute;
+    background-color: transparent;
+    /* left:43%; */
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.home_description_name_greet div p{
+    background-color: transparent;
+    
+    text-align: center;
+}
+.greeting_home{
+    font-size:20px;
+    font-weight: 400;
+    color: #bcb4b4;
+}
+.name_home{
+    font-size:55px;
+    font-weight:bold;
+    color: #fff;
+}
+.ptextcon{
+    position: absolute;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-left: 12.5%;
+    top:81%;
+    background-color: transparent;
+}
+.ptext{
+    /* margin: auto; */
+    /* width:80%; */
+    background-color: transparent;
+    /* text-align: center; */
+    font-size: 17px;
+    color: #fff;
+    /* left:30%; */
+}
+.work_home_div{
+    position:absolute;
+    width: 70%;
+    margin-left: 12.5%;
+    display: flex;
+    justify-content: center;
+    top:87%;
+    background-color: transparent;
+}
+.work_home{
+    
+    background-color: #bcb4b4;
+    border-radius: 7px;
+    border: 2px solid #bcb4b4;
+    font-size: 20px;
+    font-weight: 300;
+    padding:10px 22px;
+    text-decoration: none;
+    color: #000;  
+    
+    /* left:45%; */
+    transition: 0.5s background-color,0.5s border;
+}
+.work_home:hover{
+   background-color: #ffffff;
+   border:2px solid #ffffff;
+}
+.follow_home,.scroll_home {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    bottom: 20px;
+    width: 50px;
+  }
+.follow_social_home{
+    letter-spacing:7px;
+    background-color: transparent;
+    transform: rotate(90deg) translateY(32px);
+    color: #fff;
+}
+.follow_home ul{
+    background-color: transparent;
+    transform: translateY(40px) translateX(-34px);
+}
+.follow_home li{
+    background-color: transparent;
+    list-style: none;
+    transform: rotate(90deg);
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+.follow_home li a{
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 5px;;
+}
+.follow_home{
+    transform: translateY(160px) translateX(25px);
+    left:0px;
+}
+.socialmedia{
+    background-color: transparent;
+    transform: translateX(-19px) translateY(50px);
+    height:50px;
+}
+.scroll_home{
+    transform: translateY(150px) translateX(25px);
+    right:0px;
+}
+.social_icons,.followrrow{
+    background-color: transparent;
+}
+.scroll_home_text{
+    background-color: transparent;
+    font-size: 18px;
+    transform:rotate(90deg);
+    color: #fff;
+    letter-spacing: 7px;
+}
+.scrolldown{
+    background-color: transparent;
+    transform: translateX(15px) translateY(45px);
+    height:100px;
+}
+@media only screen and (max-width: 576px){
+    .work_home_div{
+        position: relative;
+    }
+    .work_home{
+        
+        font-size:16px;
+    }
+    .home_description{
+        margin-top: 100px;;
+    }
+    .name_home{
+        font-size:35px;
+    }
+    .greeting_home{
+        font-size: 15px;;
+    }
+
+    .profile1_home{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 46px;
+    }
+    .ptextcon{
+        position:relative;
+        left:0;
+    }
+    .ptext{
+        color: #bcb4b4;
+        width:100%;
+        
+        font-size: 15px;
+        
+        margin: 5% auto;
+    }
+    .follow_home{
+        transform: translateY(200px) translateX(5px);
+        left:0px;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+
+    .ptextcon{
+        position:relative;
+        left:0;
+    }
+    .ptext{
+        color: #bcb4b4;
+        width:80%;
+        
+        font-size: 15px;
+        
+        margin: 5% auto;
+    }
+    .work_home{
+        
+        font-size:18px;
+    }
+    .work_home_div{
+        position: relative;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+
+    .ptext{
+        width:80%;
+        font-size: 15.5px;
+    }
+    .ptextcon{
+        top:75%;
+    }
+    .work_home{
+        font-size: 19px;
+    }
+}
