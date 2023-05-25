@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.79c1165e.css",
+    "main.js": "/static/js/main.8823b936.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/cavinimg.jpg": "/static/media/cavinimg.77adeaa3a878fa721ecc.jpg",
+    "static/media/utracker.jpg": "/static/media/utracker.be1fe64a60e6c8ad2a2f.jpg",
+    "static/media/greenctg.jpg": "/static/media/greenctg.e51b3bbd67082da93f16.jpg",
+    "static/media/about-page-img.png": "/static/media/about-page-img.9c8789a0c66a86d475ce.png",
+    "static/media/Sai_Mani_Akarsh_Rankireddy_Resume.pdf": "/static/media/Sai_Mani_Akarsh_Rankireddy_Resume.584bcccc141421089aec.pdf",
+    "static/media/about-sec-img.png": "/static/media/about-sec-img.dc8698376cd0ff66f5d3.png",
+    "static/media/wargame.jpg": "/static/media/wargame.207a14d1049d812960be.jpg",
+    "static/media/hero.jpg": "/static/media/hero.f7000a87c40d628dcf3a.jpg",
+    "static/media/projectImg.png": "/static/media/projectImg.771236e1a97e2201a189.png",
+    "index.html": "/index.html",
+    "static/media/scroll-down-arrow.svg": "/static/media/scroll-down-arrow.b013ca458cf827f32732e3ce3c691d03.svg",
+    "static/media/social-media-arrow.svg": "/static/media/social-media-arrow.f5e093ceb316785e72dc77d75e5ed04f.svg",
+    "main.79c1165e.css.map": "/static/css/main.79c1165e.css.map",
+    "main.8823b936.js.map": "/static/js/main.8823b936.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79c1165e.css",
+    "static/js/main.8823b936.js"
+  ]
+}
