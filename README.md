@@ -1,4 +1,4 @@
-Here is the preview link of the websit https://akarsh-react-portfolio.netlify.app/
+Here is the preview link of the website https://akarsh-react-portfolio.netlify.app/
 
 
 # Getting Started with Create React App
